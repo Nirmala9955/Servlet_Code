@@ -1,0 +1,16 @@
+<h1 style="color:red;text-align:center">Html-Servlet communication using Forms</h1>
+<body bgcolor="cyan">
+<form action="marriageurl"  method="GET"  onsubmit="return validation(this)">
+   <b>name::</b>  <input type="text" name="pname"> <span style="color:red" id="nameErr"></span><br>
+   <b>age :: </b>  <input type="password" name="page"> <span style="color:red" id="ageErr"></span><br>
+    <b>Gender: </b> <input type="radio" name="gender"  value="M">Male  &nbsp;&nbsp;
+                                   <input type="radio" name="gender"  value="F" checked>FeMale  <br>
+       <input type="hidden" name="vflag" value="no"/>                                   
+           <input type="submit"  value="checkMarriage Elgibility" name="s1">                        
+</form>
+  
+  <script type="text/javascript" language="JavaScript" src="js/Validation.js">
+     
+  </script>
+  
+</body>
