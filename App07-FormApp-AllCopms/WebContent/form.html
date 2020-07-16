@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action='formurl' method="post">
+		<table>
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="tname" value="" />
+				<td>
+			</tr>
+			<tr>
+				<td>Age</td>
+				<td><input type="password" name="tage" value="" /></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gen" value="M" checked />Male <input
+					type="radio" name="gen" value="F" />Female</td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td><textarea name="address" rows="4" cols="40">Enter the address</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Marital Status</td>
+				<td><input type="checkbox" name="ms" value="married" />Married</td>
+			</tr>
+			<tr>
+				<td>Qualification</td>
+				<td><select name="qlfy">
+						<option value="B.Tech">Engg</option>
+						<option value="MBBS">Medical</option>
+						<option value="B.A">Arts</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>courses</td>
+				<td><select name="crs" size="3" multiple>
+						<option value="java">JAVA</option>
+						<option value=".net">.NET</option>
+						<option value="testing">Testing packg</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>hobbies</td>
+				<td><input type="checkbox" name="hb" value="read" checked />Reading
+					<input type="checkbox" name="hb" value="stamps" />Stamp collection
+					<input type="checkbox" name="hb" value="roaming" />Travelling</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;"><input
+					type="submit" name="submit"> <input type="reset"
+					value="cancel"></td>
+			</tr>
+		</table>
+	</form>
+
+
+</body>
+</html>
