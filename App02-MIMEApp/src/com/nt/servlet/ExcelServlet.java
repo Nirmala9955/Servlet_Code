@@ -21,7 +21,7 @@ public class ExcelServlet extends HttpServlet {
 		pw.println("<table border='1'>");
 		pw.println("<tr><th>Player</th><th>Role</th></tr>");
 		pw.println("<tr><td>Dhoni</td><td>Captain</td></tr>");
-		pw.println("<tr><td>Sachin</td><td>All rounder</td></tr>");
+		pw.println("<tr><td>Sachin Tend</td><td>All rounder</td></tr>");
 		pw.println("</table>");
 		//close stream
 		pw.close();
